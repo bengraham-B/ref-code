@@ -1,0 +1,33 @@
+[
+    {
+        "id": "1",
+        "title": "Chaos Warp",
+        "mana":"2 red"
+    },
+    {
+        "id": "2",
+        "title": "Seraph of Dawn",
+        "mana":"2 white white"
+    },
+    {
+        "id": "3",
+        "title": "Defossilze",
+        "mana":"4 red"
+    },
+    {
+        "id": "4",
+        "title": "Merchant Raiders",
+        "mana":"3 blue"
+    },
+    {
+        "id": "5",
+        "title": "Miner's Guidewing",
+        "mana":"white"
+    },
+    {
+        "id": "6",
+        "title": "Daring Sabotuer",
+        "mana": "1 blue"
+    }
+
+]

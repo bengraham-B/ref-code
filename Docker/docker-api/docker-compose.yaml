@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  card_api:
+    build: ./api
+    container_name: card_api_container
+    ports: 
+      - "8029:8029"
+    volumes:
+      - ./api:/server
+      - ./server/node_modules:/api/node_modules

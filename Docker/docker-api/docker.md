@@ -9,9 +9,12 @@
 ## Step 3: Deleting the Image and Container once it works 
     docker system prune 
 
-## Step 4: Making the Docker compose file
+## Step 4: Build the container with Docker-compose
+    docker-compose up --build
+
+## Step 5: Making the Docker compose file
     docker-compose up --detach
 
-## Step 5: Stopping the Docker Compose container
+## Step 6: Stopping the Docker Compose container
     docker-compose down
 

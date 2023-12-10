@@ -1,0 +1,13 @@
+version: "3.8"
+services: 
+  react_app:
+    build: ./client
+    container_name: react_10dec_container
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./client:/app
+      - ./app/node_modules:/client/node_modules
+    stdin_open: true
+    tty: true
+
